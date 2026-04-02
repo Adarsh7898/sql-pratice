@@ -6,4 +6,4 @@ RANK() OVER(PARTITION BY productID ORDER BY sales DESC ) AS product_rank
 FROM orders
 )t1
 WHERE product_rank=1
-ORDER BY sales DESC;
+ORDER BY sales DESC;orders
