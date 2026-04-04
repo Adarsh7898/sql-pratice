@@ -1,0 +1,3 @@
+ALTER TABLE employees
+ADD COLUMN city VARCHAR(20)
+AFTER age
